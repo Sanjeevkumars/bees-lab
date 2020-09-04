@@ -1,0 +1,24 @@
+3)Swaping of two numbers(using c laguage)
+#include<stdio.h>
+#include<string.h>
+int main(){
+     int a,b;
+     scanf("%d %d",&a,&b);
+     a=a+b;
+     b=a-b;
+     a=a-b;
+     printf(" after swaping value of a is "%d" and value of b is "%d",a,b");
+   }  
+
+4) to find the number of 1's in the given range(using c language).
+
+#include<stdio.h>
+#include<string.h>
+int main(){
+     int a,b;
+     scanf("%d %d",&a,&b);
+     int c=b/10;
+     printf("the number of 1's in the given range is "%d",c*2);
+}     
+     
+       
